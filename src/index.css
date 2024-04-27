@@ -19,8 +19,7 @@
   
 
 body{
-    background-color: rgb(255, 255, 255);
     font-family: var(--font);
     font-size: var(--font-size);
 }
-
+ 

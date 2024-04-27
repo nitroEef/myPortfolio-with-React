@@ -1,18 +1,23 @@
 import React from 'react'
 import './HeroSection.css';
-import { bb } from '../../assets';
+import { bt } from '../../assets';
 
 const HeroSection = () => {
   return (
-    <div>
-    <p><span className='intro' >Hi, I'm nitroEef</span>
-    a web developer with a passion for digital innovation,
+    <div className='backgroundhero'>
+    <div className='imageAndText'>
+        <div className='twoTexts'>
+   
+    <p>Hi, I'm nitroEef</p>
+    <h4>a web developer with a passion for digital innovation,
     crafting exceptional user experience , wich focus on delivering
-    top-notch solutions that meets the client needs </p>
+    top-notch solutions that meets the client needs</h4>
+    </div>
 
-    <img src={bb} alt="bb" />
+    <img src={bt} alt="bb" />
    
     
+    </div>
     </div>
   )
 }

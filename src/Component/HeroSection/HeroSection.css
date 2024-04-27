@@ -1,4 +1,18 @@
-p{
-    font-size: 12px;
-    color:red;
+.twoTexts{
+    width:532px;
+}
+
+.imageAndText{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+img{
+    float:right;
+}
+
+.backgroundhero{
+    height:78.33vh;
+    background:rgb(45, 45, 45);
+
 }
