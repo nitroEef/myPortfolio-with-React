@@ -7,7 +7,7 @@ const Skills = () => {
     <div className='wholeSkill'>
         <h1 className='skills'> Skills</h1>
 
-        <div className=''
+        <div className='one'>
             <p className='htmltext'> Html 70%</p>
         <div className='html'>
             <div className='firstline'>
@@ -19,7 +19,69 @@ const Skills = () => {
             </div>
            
         </div>
-      
+        </div>
+
+
+        <div className='one'>
+            <p className='htmltext'> Html 70%</p>
+        <div className='html'>
+            <div className='firstline'>
+            <div className='secondline'>
+                
+                </div>
+
+
+            </div>
+           
+        </div>
+        </div>
+
+
+        <div className='one'>
+            <p className='htmltext'> Html 70%</p>
+        <div className='html'>
+            <div className='firstline'>
+            <div className='secondline'>
+                
+                </div>
+
+
+            </div>
+           
+        </div>
+        </div>
+
+
+        <div className='one'>
+            <p className='htmltext'> Html 70%</p>
+        <div className='html'>
+            <div className='firstline'>
+            <div className='secondline'>
+                
+                </div>
+
+
+            </div>
+           
+        </div>
+        </div>
+
+
+        <div className='one'>
+            <p className='htmltext'> Html 70%</p>
+        <div className='html'>
+            <div className='firstline'>
+            <div className='secondline'>
+                
+                </div>
+
+
+            </div>
+           
+        </div>
+        </div>
+
+
     </div>
   )
 }

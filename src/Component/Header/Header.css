@@ -49,11 +49,4 @@ header {
 }
 
 
-button:hover{
-  background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
-  border:none;
-  opacity: 76%;
-  color:white;
-  transition: all ease-in ;
- 
-}
+

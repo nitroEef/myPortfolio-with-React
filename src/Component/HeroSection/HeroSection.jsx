@@ -3,7 +3,17 @@ import './HeroSection.css';
 import { btt } from '../../assets';
 
 const HeroSection = () => {
+  const introText = document.querySelector('.intro');
+
+let text = introText.textContent;
+introText.textContent = '';
+
+let chars = text.split('');
+let charCount = 0;
+
   return (
+   
+
     <div className='imageAndText'>
         <div className='threeTexts'>
    
@@ -11,7 +21,7 @@ const HeroSection = () => {
     <h3 className='introTwo'>Ogbeni NitroEef</h3>
     <h4 className='introThree'>a professional web developer and UI/UX designer</h4>
 <div className='buttonguys'>
-    <button className='btn resume'> Resume</button>
+    <button className=' btn resume'> Resume</button>
     <button className='btn myWork'> My Work</button>
  </div>
 

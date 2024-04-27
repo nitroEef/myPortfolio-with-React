@@ -27,6 +27,59 @@
     margin-left: 11rem;
 }
 
+
+.btn {
+    background-color:var(--background4selectedbox);
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .btn:hover {
+    background-color: #FFC107;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+    animation: hover-animation 0.6s ease-in-out infinite;
+    color:white;
+    z-index: 1;
+}
+    
+    .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    color:white;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #FFC107, #FF9800);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .btn:hover::before {
+    transform: scaleY(1);
+    animation: hover-animation 0.6s ease-in-out infinite;
+    }
+    
+    @keyframes hover-animation {
+    0% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(1.1);
+    }
+    100% {
+    transform: scale(1);
+    }
+    }
+
+
 .buttonguys{
     margin-top: 2rem;
     gap:4rem;
@@ -36,73 +89,8 @@
     margin-left: 1rem;
 }
 
-.btn{
-position: relative;
-display: inline-block;
-padding: 20px;
-border: 1px solid #ccc;
-border-radius: 10px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn::before {
-content: "";
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-image: linear-gradient(to top, #FFC107, #FF9800);
-transform: scaleX(0);
-transform-origin: left;
-transition: transform 0.5s ease-out;
-}
-
-.btn:hover::before {
-transform: scaleX(1);
-}
-
-.animated-box p {
-text-align: center;
-font-size: 24px;
-font-weight: bold;
-color: #333;
-animation: animateText 2s ease-in-out infinite;
-}
-
-@keyframes animateText {
-0% {
-opacity: 0;
-}
-50% {
-opacity: 1;
-}
-100% {
-opacity: 0;
-}
-}
 
 
-/* .btn {
-    padding:14px 2rem;
-    
-    color:rgb(27, 25, 25);
-    cursor:pointer;
-    border-radius: 17px;
-    border:none;
-    font-weight: 600;
-    font-size: 14px;
-  }
-   */
-  .resume{
-    background-color: var(--background4selectedbox);
-    color: white;
-  }
-  .myWork{
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-  }
   .imageAndText{
     display: flex;
   }
