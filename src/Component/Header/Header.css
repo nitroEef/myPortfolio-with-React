@@ -5,7 +5,6 @@ header {
   flex-wrap: wrap;
   align-items: center;
 
- background-color:rgb(41, 40, 40);
   padding:26px 0;
   width:100%;
   color:white;
@@ -27,7 +26,7 @@ header {
   position:absolute;
   width:100%;
   height:5px;
-  background-color: rgb(255, 255, 255);
+  background-color:var(--background4selectedbox);
   border-radius: 5px;
   left:0;
   top:2.7rem;
@@ -49,19 +48,6 @@ header {
   gap: 52px;
 }
 
-
-
-button {
-  /* margin-right: 12rem; */
-  padding:1rem;
-
-  color:rgb(27, 25, 25);
-  cursor:pointer;
-  border-radius: 17px;
-  border:none;
-  font-weight: 600;
-  font-size: 14px;
-}
 
 button:hover{
   background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));

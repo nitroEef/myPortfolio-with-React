@@ -1,23 +1,26 @@
 import React from 'react'
 import './HeroSection.css';
-import { bt } from '../../assets';
+import { btt } from '../../assets';
 
 const HeroSection = () => {
   return (
-    <div className='backgroundhero'>
     <div className='imageAndText'>
-        <div className='twoTexts'>
+        <div className='threeTexts'>
    
-    <p>Hi, I'm nitroEef</p>
-    <h4>a web developer with a passion for digital innovation,
-    crafting exceptional user experience , wich focus on delivering
-    top-notch solutions that meets the client needs</h4>
+    <h2 className='intro'>Hello, I am!</h2>
+    <h3 className='introTwo'>Ogbeni NitroEef</h3>
+    <h4 className='introThree'>a professional web developer and UI/UX designer</h4>
+<div className='buttonguys'>
+    <button className='btn resume'> Resume</button>
+    <button className='btn myWork'> My Work</button>
+ </div>
+
+
     </div>
 
-    {/* <img src={bt} alt="bb" />  */}
+     <img className='firstImage'src={btt} alt="bb" /> 
    
     
-    </div>
     </div>
   )
 }

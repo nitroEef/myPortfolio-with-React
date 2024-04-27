@@ -1,0 +1,21 @@
+
+.aboutme{
+    text-align: center;
+    margin-top: 5rem;
+    width:211px;
+    background-color: var(--background4selectedbox);
+    margin:1rem auto;
+
+}
+
+
+.ogbeni{
+    width:856px;
+    margin:0 auto;
+    line-height: 2rem;
+}
+
+.forabout{
+    margin-top: 7rem;
+}
+

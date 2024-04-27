@@ -1,10 +1,114 @@
-.twoTexts{
-    width:532px;
+.intro{
+    background-color: var(--background4selectedbox);
+    padding:11px 16px;
+    
+    display: inline-block;
+    border-top-left-radius: 25px;
+    font-size: 15px;
 }
 
-.imageAndText{
-    display:flex;
-    justify-content: space-evenly;
+.introTwo{
+    width:422px;
+    margin-top: 1.5rem;
+    font-size: 35px;
+    font-weight: 700;
 }
 
+.introThree{
+    font-weight: 400;
+    margin-top: 1rem;}
+/* .twoTexts{
+    padding-top: 7rem;
+    padding-left: 9rem;
+} */
+
+.threeTexts{
+    margin-top: 7rem;
+    margin-left: 11rem;
+}
+
+.buttonguys{
+    margin-top: 2rem;
+    gap:4rem;
+}
+
+.myWork{
+    margin-left: 1rem;
+}
+
+.btn{
+position: relative;
+display: inline-block;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: linear-gradient(to top, #FFC107, #FF9800);
+transform: scaleX(0);
+transform-origin: left;
+transition: transform 0.5s ease-out;
+}
+
+.btn:hover::before {
+transform: scaleX(1);
+}
+
+.animated-box p {
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+color: #333;
+animation: animateText 2s ease-in-out infinite;
+}
+
+@keyframes animateText {
+0% {
+opacity: 0;
+}
+50% {
+opacity: 1;
+}
+100% {
+opacity: 0;
+}
+}
+
+
+/* .btn {
+    padding:14px 2rem;
+    
+    color:rgb(27, 25, 25);
+    cursor:pointer;
+    border-radius: 17px;
+    border:none;
+    font-weight: 600;
+    font-size: 14px;
+  }
+   */
+  .resume{
+    background-color: var(--background4selectedbox);
+    color: white;
+  }
+  .myWork{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  .imageAndText{
+    display: flex;
+  }
+
+  .firstImage{
+    height: 435px;
+    width:355px
+  }
 

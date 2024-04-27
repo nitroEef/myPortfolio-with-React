@@ -1,11 +1,11 @@
-import bt from './bt.png';
+import btt from './btt.png';
 
 
 
 
 
 export{
-bt
+btt
 
 }
 
