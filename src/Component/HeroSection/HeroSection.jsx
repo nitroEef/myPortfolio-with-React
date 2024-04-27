@@ -14,7 +14,7 @@ const HeroSection = () => {
     top-notch solutions that meets the client needs</h4>
     </div>
 
-    <img src={bt} alt="bb" />
+    {/* <img src={bt} alt="bb" />  */}
    
     
     </div>
