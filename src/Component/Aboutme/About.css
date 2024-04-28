@@ -1,18 +1,17 @@
 
-.aboutme{
+/* .aboutme{
     text-align: center;
     margin-top: 5rem;
-    width:211px;
     margin:1rem auto;
 
-}
+} */
 
 
 .ogbeni{
-    width:1216px;
-    margin:4rem auto;
+    width:815px;
+    /* margin:4r */
     line-height: 3rem;
-    font-size: 22px;
+    font-size: 21px;
     
 }
 
@@ -20,5 +19,7 @@
     margin-top: 12rem;
     background-color: rgb(32, 30, 30);
     height: 100vh;
+    display:flex;
+    justify-content: space-between;
 }
 

@@ -7,6 +7,14 @@
     font-size: 15px;
     cursor: pointer;
 }
+.imageAndText{
+    display: flex;
+
+  }
+
+  .thequote{
+    width:555px;
+  }
 
 .introTwo{
     width:422px;
@@ -95,9 +103,6 @@
 
 
 
-  .imageAndText{
-    display: flex;
-  }
 
   .firstImage{
     height: 435px;

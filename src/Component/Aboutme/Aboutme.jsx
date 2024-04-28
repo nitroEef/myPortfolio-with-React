@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css';
+import { yu } from '../../assets';
 
 const Aboutme = () => {
   return (
@@ -16,6 +17,10 @@ const Aboutme = () => {
         outside of design, you can find me playing indoor games like scrabble, pes /dreamleague
      or surfing the net, probably dabbling in emerging design tools and technologies 
      </p>
+
+
+     <img className='firstImage'src={yu} alt="bb" /> 
+
     </div>
   )
 }
