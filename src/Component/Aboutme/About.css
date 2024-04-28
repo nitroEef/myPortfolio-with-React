@@ -18,7 +18,7 @@
 .forabout{
     margin-top: 12rem;
     background-color: rgb(32, 30, 30);
-    height: 100vh;
+    height: 70vh;
     display:flex;
     justify-content: space-between;
 }
