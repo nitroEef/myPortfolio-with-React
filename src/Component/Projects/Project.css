@@ -1,0 +1,20 @@
+
+
+.container {
+  max-width: 800px; /* adjust the width as needed */
+  margin: 0 auto;
+}
+
+.onebox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: calc(33.33% - 10px); /* adjust the width and margin as needed */
+  margin: 10px;
+  background-color: #eee;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
