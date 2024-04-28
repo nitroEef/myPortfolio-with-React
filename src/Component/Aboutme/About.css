@@ -3,19 +3,22 @@
     text-align: center;
     margin-top: 5rem;
     width:211px;
-    background-color: var(--background4selectedbox);
     margin:1rem auto;
 
 }
 
 
 .ogbeni{
-    width:856px;
-    margin:0 auto;
-    line-height: 2rem;
+    width:1216px;
+    margin:4rem auto;
+    line-height: 3rem;
+    font-size: 22px;
+    
 }
 
 .forabout{
-    margin-top: 7rem;
+    margin-top: 12rem;
+    background-color: rgb(32, 30, 30);
+    height: 100vh;
 }
 

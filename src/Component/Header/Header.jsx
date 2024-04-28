@@ -25,7 +25,7 @@ const items = [
           ))} */} 
           <div className='centerLink'>
           <ul>
-            <li className='home'><a href='#Home'>Home</a></li>
+            <li className='ile'><a href='#Home'>Home</a></li>
             <li><a href='#About me'>About me</a></li>
             <li><a href='/'>Skills</a></li>
             <li><a href='/'>Projects</a></li>

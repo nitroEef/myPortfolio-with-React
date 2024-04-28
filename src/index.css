@@ -14,7 +14,9 @@
     --font-size:17px;
     --borderRadius:25px;
     --font:"Raleway";
-    --fonted-color:white
+    --fonted-color:white;
+    --font-header-weight:600;
+    --font-header-size:24px;
 
   }
   
@@ -22,7 +24,7 @@
 body{
     font-family: var(--font);
     font-size: var(--font-size);
-    background-color: black;
+    background-color: rgb(34, 33, 33);
     color:var(--fonted-color)
 }
  
