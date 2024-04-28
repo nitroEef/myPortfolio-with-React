@@ -1,38 +1,62 @@
-.container {
-    display: grid;
+.container{
+    display: flex;
+    gap:121px;
+    row-gap: 2rem;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #323030;
-    border: 1px solid orangered;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(184, 181, 181, 0.1);
-    grid-template-rows: repeat(4,1fr);
-    gap:12px;
+    margin-top: 4rem;
+    color:black;
+    
+}
 
 
+.box{
+    height:305px;
+    width:305px;
+    background-color: rgb(247, 243, 242);
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+}
 
+.box {
+    animation: jiggle 2s infinite;
     }
     
-    .box {
-    width: 255px;
-    height:255px;
-    margin: 10px;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    @keyframes jiggle {
+    0% {
+    transform: scale(1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
     }
     
-    .box:hover {
+    50% {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     }
     
-    .box:nth-child(even) {
-    background-color: #816230;
+    100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    }
+
+    .pro{
+        text-align: center;
+        margin-top: 5rem;
+        font-weight: 700;
+        font-size: 37px;
+    }
+
+
+    .easypix{
+        width:225px;
+        height:175px;
+        margin: 1rem 2rem;
+        
+    }
+
+    .easyBank{
+        text-align: center;
+        margin-top: 2rem;
+        font-weight: 600;
     }
