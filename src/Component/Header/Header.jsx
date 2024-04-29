@@ -26,7 +26,7 @@ const items = [
           <div className='centerLink'>
           <ul>
             <li className='ile'><a href='#Home'>Home</a></li>
-            <li><a href='#About me'>About me</a></li>
+            <li><a href='#About-me'>About me</a></li>
             <li><a href='/'>Skills</a></li>
             <li><a href='/'>Projects</a></li>
             <li><a href='/'> Experience</a></li>

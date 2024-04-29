@@ -19,8 +19,8 @@
     cursor: pointer;
 }
 
-.box {
-    animation: jiggle 2s infinite;
+.box::before {
+    animation: jiggle 2s finite;
     }
     
     @keyframes jiggle {

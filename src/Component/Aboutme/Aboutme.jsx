@@ -4,9 +4,10 @@ import { yu } from '../../assets';
 
 const Aboutme = () => {
   return (
-    <div className='forabout'>
+    <div className='forabout' id='About-me'>
 
         <h1 className='aboutme'> About Me</h1>
+        <div className="aboutpix">
      <p className='ogbeni'> Hello, I'm Ogbeni NitroEeF, a passionate and innovative web developer/designer,
         dedicated to creating user-friendly and engaging visual and functional experiences.
         i am mptivated by a desire to make a meaningful impact through design and a fascination
@@ -20,9 +21,10 @@ const Aboutme = () => {
 
 
      <img className='firstImage'src={yu} alt="bb" /> 
-
+     </div>
     </div>
   )
 }
+
 
 export default Aboutme

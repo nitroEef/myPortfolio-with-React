@@ -22,8 +22,8 @@ const HeroSection = () => {
     </div>
 
 <div className='quotebox'>
-  <p className='thequote'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem nisi excepturi ratione mollitia beatae enim odit sint possimus esse, 
-  ea labore ullam alias molestiae repellendus harum architecto. Ipsa, eaque?</p>
+  <p className='thequote'>'''Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem nisi excepturi ratione mollitia beatae enim odit sint possimus esse, 
+  ea labore ullam alias molestiae repellendus harum architecto. Ipsa, eaque?'''</p>
   </div>   
     
     </div>

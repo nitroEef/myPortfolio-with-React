@@ -6,6 +6,8 @@ import { downloaded } from '../../assets';
 
 const Project = () => {
   return (
+
+    
     <div className='myProject'>
       <h3 className='pro'>My Project</h3>
 

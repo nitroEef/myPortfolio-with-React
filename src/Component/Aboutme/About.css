@@ -1,14 +1,13 @@
 
-/* .aboutme{
+ .aboutme{
     text-align: center;
-    margin-top: 5rem;
-    margin:1rem auto;
+   
 
-} */
+} 
 
 
 .ogbeni{
-    width:815px;
+    width:725px;
     /* margin:4r */
     line-height: 3rem;
     font-size: 21px;
@@ -16,10 +15,15 @@
 }
 
 .forabout{
-    margin-top: 12rem;
+    margin-top: 7rem;
     background-color: rgb(32, 30, 30);
     height: 70vh;
+    padding:0 7rem; 
+}
+
+.aboutpix{
     display:flex;
     justify-content: space-between;
+    margin-top: 4rem;
 }
 

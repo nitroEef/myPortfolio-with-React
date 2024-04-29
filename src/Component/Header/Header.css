@@ -19,8 +19,8 @@ header {
   color:white;
 }
 .centerLink a:hover{
-  color:rgb(250, 244, 244);
   font-weight: 600;
+  color: var(--background4selectedbox);
 }
 .centerLink a::after{
   content:"";
@@ -35,9 +35,10 @@ header {
   transform-origin: right;
   transition: transform .6s;
 
+
 }
 
-.centerLink a:hover::after{
+.centerLink li a:hover::after{
   transform: scaleY(1);
   transform-origin:left;
 

@@ -9,6 +9,9 @@
 }
 .imageAndText{
     display: flex;
+    justify-content: space-between;
+    padding:6rem 7rem;
+    /* background-color: red; */
 
   }
 
@@ -31,10 +34,10 @@
     padding-left: 9rem;
 } */
 
-.threeTexts{
+/* .threeTexts{
     margin-top: 7rem;
     margin-left: 11rem;
-}
+} */
 
 
 .btn {
