@@ -4,10 +4,12 @@ header {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-
   padding:32px 0;
   width:100%;
   color:white;
+  position:fixed;
+  z-index: 1;
+  background-color: rgb(35, 33, 33);
 }
 .centerLink .ile ul{
   color: var(--background4selectedbox);
@@ -50,5 +52,10 @@ header {
   gap: 52px;
 }
 
+.homed{
+  color:var(--background4selectedbox)
+}
 
-
+.homed a{
+  color:var(--background4selectedbox)
+}

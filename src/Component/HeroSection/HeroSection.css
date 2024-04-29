@@ -1,28 +1,36 @@
 .intro{
     background-color: var(--background4selectedbox);
-    padding:11px 16px;
+    padding:15px 33px;
     
     display: inline-block;
     border-top-left-radius: 25px;
-    font-size: 15px;
+    font-size: 21px;
     cursor: pointer;
 }
 .imageAndText{
     display: flex;
     justify-content: space-between;
-    padding:6rem 7rem;
+    padding:10rem 9rem;
     /* background-color: red; */
 
   }
 
   .thequote{
     width:555px;
+    border-right: 4px solid var(--background4selectedbox);
+    border-top: 3px solid var(--background4selectedbox);
+    border-style:inset;
+    padding:3rem;
+    font-size: 22px;
+    box-shadow: 1px 2px 3px orangered;
+    border-top-left-radius: 22px;
+
   }
 
 .introTwo{
-    width:422px;
+    width:472px;
     margin-top: 1.5rem;
-    font-size: 47px;
+    font-size: 57px;
     font-weight: 700;
 }
 

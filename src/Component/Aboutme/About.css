@@ -1,7 +1,7 @@
 
  .aboutme{
     text-align: center;
-   
+    padding-top:3rem;
 
 } 
 
@@ -15,8 +15,6 @@
 }
 
 .forabout{
-    margin-top: 7rem;
-    background-color: rgb(32, 30, 30);
     height: 70vh;
     padding:0 7rem; 
 }

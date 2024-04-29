@@ -2,16 +2,6 @@ import React from 'react';
 import './Header.css'
 import { Link } from 'react-router-dom';
 
-const items = [
-    { tagName:"Home", url: "/Home" },
-    { tagName:"contact", url: "/contact" },
-    { tagName:"about", url: "/about" },
-  
-
-  
-
-  ];
-  
   const Header = () => {
     return (
       
@@ -25,11 +15,11 @@ const items = [
           ))} */} 
           <div className='centerLink'>
           <ul>
-            <li className='ile'><a href='#Home'>Home</a></li>
+            <li className='homed'><a href='#Home'>Home</a></li>
             <li><a href='#About-me'>About me</a></li>
             <li><a href='/'>Skills</a></li>
             <li><a href='/'>Projects</a></li>
-            <li><a href='/'> Experience</a></li>
+            <li ><a href='/'> Contact Me</a></li>
         </ul>
         </div>
      

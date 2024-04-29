@@ -40,8 +40,10 @@
    
     display: grid;
     justify-content: center;
+    margin-top: 11rem;
     align-items: center;
-    background-color: rgb(26, 25, 25);
+    /* background-image:radial-gradient(black,white) */
+
 
 
 
@@ -69,7 +71,7 @@
  }
 
  .skillintro{
-    width: 533px;
+    width: 633px;
     line-height: 2rem;
     margin-top: 2rem;
  }

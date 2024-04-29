@@ -25,23 +25,10 @@ const Skills = () => {
         </div>
 
 
-        <div className='one'>
-            <p className='htmltext'> HTML : 82%</p>
-        <div className='bar'>
-            <div className='firstline'>
-            <div className='secondline ekeji'>
-                
-                </div>
-
-
-            </div>
-           
-        </div>
-        </div>
 
 
         <div className='one'>
-            <p className='htmltext'>CSS : 85%</p>
+            <p className='htmltext'>HTML & CSS : 85%</p>
         <div className='bar'>
             <div className='firstline'>
             <div className='secondline eketa'>

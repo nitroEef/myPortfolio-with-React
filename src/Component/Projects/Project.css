@@ -1,14 +1,19 @@
 .container{
     display: flex;
-    gap:121px;
-    row-gap: 2rem;
+   gap:4rem;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 4rem;
+    margin:4rem auto;
     color:black;
+    width:75%;
+
     
 }
+/* .imageWord:hover{
+    width:100%;
+    border-radius: 6px;
 
+} */
 
 .box{
     height:305px;
@@ -17,28 +22,16 @@
     border-radius: 20px;
     display: flex;
     cursor: pointer;
+    background-color:white;
+
 }
 
-.box::before {
-    animation: jiggle 2s finite;
-    }
-    
-    @keyframes jiggle {
-    0% {
-    transform: scale(1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    50% {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    }
-    
-    100% {
-    transform: scale(1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    }
+
+.box:nth-child(odd){
+    border-bottom: 4px solid orangered;
+
+}
+
 
     .pro{
         text-align: center;
@@ -51,12 +44,20 @@
     .easypix{
         width:225px;
         height:175px;
-        margin: 1rem 2rem;
+        padding-top: 1rem;
+        padding-left: 2.5rem;
+        border-left: 4px solid orangered;
+        
+
+        /* max-width: 100%;
+        height: auto; */
         
     }
 
     .easyBank{
         text-align: center;
         margin-top: 2rem;
-        font-weight: 600;
+        font-size: 21px;
+        font-weight: 700;
+        border-radius: 12px;
     }

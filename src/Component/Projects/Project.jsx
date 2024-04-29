@@ -4,6 +4,7 @@ import { download } from '../../assets';
 import { downloaded } from '../../assets';
 
 
+
 const Project = () => {
   return (
 
@@ -14,7 +15,7 @@ const Project = () => {
         <div className='container'>
                 <div className="box ">
                 <div className='imageWord'>
-                <p className='easyBank'> 1. EasyBank Web Page</p>
+                <p className='easyBank'> 1. Hostel Management</p>
                 <img className='easypix'src={download} alt="bb" /> 
                      </div>
 
@@ -33,7 +34,7 @@ const Project = () => {
 
                 <div className="box ">
                     <div className='imageWord'>
-                    <p className='easyBank'> 3.Quote Generator</p>
+                    <p className='easyBank'> 3.EasyBank Web page</p>
      <img className='easypix'src={download} alt="bb" /> 
                      </div>
 
@@ -43,7 +44,7 @@ const Project = () => {
 
                 <div className="box ">
                     <div className='imageWord'>
-                    <p className='easyBank'> 1. EasyBank Web Page</p>
+                    <p className='easyBank'> 4. Tic Tak Toe Game</p>
      <img className='easypix'src={download} alt="bb" /> 
                      </div>
 
@@ -53,7 +54,7 @@ const Project = () => {
 
                 <div className="box ">
                     <div className='imageWord'>
-                    <p className='easyBank'> 1. EasyBank Web Page</p>
+                    <p className='easyBank'> 5. Scramble Word Game</p>
      <img className='easypix'src={download} alt="bb" /> 
                      </div>
 
