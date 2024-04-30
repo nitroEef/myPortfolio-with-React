@@ -25,7 +25,26 @@
     box-shadow: 1px 2px 3px orangered;
     border-top-left-radius: 22px;
 
+
+    border: 2px solid orangered;
+    animation: animateBorder infinite 1s linear;
   }
+  
+  @keyframes animateBorder {
+    0% {
+      border-color: #e71e1e;
+      transform: translate(120, 122px);
+    }
+    50% {
+      border-color: #e4e4df;
+      transform: translate(1px, 0);
+    }
+    100% {
+      border-color: #ccc;
+      transform: translate( 0);
+    }
+  }
+  
 
 .introTwo{
     width:472px;
