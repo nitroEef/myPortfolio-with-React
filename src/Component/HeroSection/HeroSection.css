@@ -1,7 +1,7 @@
 .intro{
-    background-color:white;
+    background-color:var(--background4selectedbox);
     padding:15px 23px;
-    color:black;
+    color:white;
     margin-left: 8rem;
 
     
@@ -13,12 +13,15 @@
 
 .myIcons{
   display: flex;
-  color:var(--background4selectedbox);
+  color:white;
   cursor: pointer;
   font-size: 24px;
   padding-top:3rem;
   margin-left: 5rem;
   gap:1.4rem;
+}
+.myIcons:hover{
+color:red;
 }
 .imageAndText{
     display: flex;
@@ -36,7 +39,7 @@
     padding:3rem;
     font-size: 22px;
     box-shadow: 1px 2px 3px orangered;
-    border-top-left-radius: 22px;
+    border-bottom-right-radius: 12px;
 
 
     border: 2px solid orangered;
@@ -46,14 +49,14 @@
   @keyframes animateBorder {
     0% {
       border-color: #e71e1e;
-      transform: translate(1px, 1px);
+      transform: translate(0, 0);
     }
     50% {
       border-color: #e4e4df;
-      transform: translate(1px, 0);
+      transform: translate(0, 0);
     }
     100% {
-      border-color: #e07811;
+      border-color: orangered;
       transform: translate( 0);
     }
   }

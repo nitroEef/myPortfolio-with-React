@@ -1,63 +1,146 @@
+.img{
+   
+    display:block;
+    max-width: 100%;
+    height:auto;
+     
+}
+.eefqqqd{
+    margin-top:4rem;
+}
+.mypro{
+    color:white;
+    font-size: 36px;
+    margin-top:7rem;
+    text-align: center;
+}
+
+/* .container{
+    display:grid;
+    place-items: center;
+    margin-inline:1.5rem;
+    padding-block:5rem;
+}
+
+.card--container{
+    display:grid;
+    row-gap:3.5rem;
+} */
+
+
+
 .container{
     display: flex;
-   gap:4rem;
     flex-wrap: wrap;
     justify-content: center;
-    margin:4rem auto;
+    margin:0 auto;
+    margin-top: 4rem;
     color:black;
     width:75%;
 
     
 }
-/* .imageWord:hover{
-    width:100%;
-    border-radius: 6px;
 
-} */
 
-.box{
-    height:305px;
-    width:305px;
-    background-color: rgb(247, 243, 242);
-    border-radius: 20px;
-    display: flex;
-    cursor: pointer;
-    background-color:white;
-
+.card--container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:4rem;
 }
 
 
-.box:nth-child(odd){
-    border-bottom: 4px solid orangered;
+.card--article{
+    position:relative;
+    overflow:hidden;
 
 }
 
+.card-image{
+    width:328px;
+    border-radius: 1.5rem;
+}
 
-    .pro{
-        text-align: center;
-        margin-top: 5rem;
-        font-weight: 700;
-        font-size: 37px;
+.card--data{
+    width:280px;
+    background-color:orangered;
+    padding:1.5rem 1.2rem;
+    box-shadow: 0 8px 24px (0, 0%, 0%, .15);
+    border-radius: 1rem;
+    position: absolute ;
+    bottom:-9rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    transition: opacity 1s 1s;
+    opacity:0; 
+    
+}
+
+.card--description{
+    display:block;
+    font-size: 17px;
+    margin-bottom: .25rem;
+}
+
+
+.card--title{
+    font-size: 23px;
+    font-weight:500;
+    color:white;
+    margin-bottom:.75rem ;
+}
+
+.card--button:hover{
+    text-decoration: underline;
+
+}
+
+.card--article:hover .card--data{
+    animation: show-data 1s forwards;
+    opacity:1;
+    transition: opacity .3s;
+
+}
+
+.card--article:hover{
+    animation: remove-overflow 2s forwards;
+} 
+
+
+@keyframes show-data{
+    50%{
+        transform :translateY(-10rem)
     }
 
+    100%{
+        transform :translateY(-7rem)
+    }
+}
 
-    .easypix{
-        width:225px;
-        height:175px;
-        padding-top: 1rem;
-        padding-left: 2.5rem;
-        border-left: 4px solid orangered;
-        
+@keyframes remove-overflow{
+    to{
+        overflow: initial;
+    }
+}
 
-        /* max-width: 100%;
-        height: auto; */
-        
+@keyframes remove-data{
+    0%{
+        transform: translateY(-7rem);
+    }
+    50%{
+        transform: translateY(-10rem);
+    }
+    100%{
+        transform: translateY(-.5rem);
     }
 
-    .easyBank{
-        text-align: center;
-        margin-top: 2rem;
-        font-size: 21px;
-        font-weight: 700;
-        border-radius: 12px;
+}
+
+@keyframes show-overflow{
+    0%{
+        overflow:initial;
+        pointer-events:none;
     }
+    50%{
+        overflow: hidden;
+    }}

@@ -9,7 +9,7 @@ const HeroSection = () => {
    
 
     <div className='imageAndText'>
-        <d iv className='threeTexts'>
+        <div className='threeTexts'>
    
     <h2 className='intro'>Hello, I am!</h2>
     <h3 className='introTwo'>Ogbeni NitroEef</h3>
@@ -23,7 +23,7 @@ const HeroSection = () => {
  </div>
 
 
-    </d>
+    </div>
 
 <div className='quotebox'>
   <p className='thequote'>'''Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem nisi excepturi ratione mollitia beatae enim odit sint possimus esse, 

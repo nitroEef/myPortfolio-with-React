@@ -21,10 +21,21 @@
   }
   
 
-body{
+ body{
     font-family: var(--font);
     font-size: var(--font-size);
     background-color: rgb(34, 33, 33);
     color:var(--fonted-color)
 }
- 
+  
+
+
+  /* body{
+    color:black;
+    background-color: azure;
+  } */
+
+  /* body{
+    color:white;
+    background-color: purple;
+  } */

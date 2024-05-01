@@ -2,77 +2,91 @@ import React from 'react'
 import './Project.css'
 import { download } from '../../assets';
 import { downloaded } from '../../assets';
+import { FaAirbnb, FaFaceKissWinkHeart, FaPiggyBank } from 'react-icons/fa6';
 
 
 
 const Project = () => {
   return (
 
-    
-    <div className='myProject'>
-      <h3 className='pro'>My Project</h3>
+    <div className="eefqqqd">
+<h1 className='mypro'> Projects </h1>
+    <div className='container'>
+     
 
-        <div className='container'>
-                <div className="box ">
-                <div className='imageWord'>
-                <p className='easyBank'> 1. Hostel Management</p>
-                <img className='easypix'src={download} alt="bb" /> 
-                     </div>
+      <div className="card--container">
+          <article className="card--article">
+          <img className='card-image'src={download} alt="bb" /> 
+          <div className="card--data">
+               <span className="card--description">shshsh   </span>
+                    <h2 className='card-title'> easy</h2>
+                    <a href='#' className='card--button'> Read more </a>
+             
+          </div>
+          </article>
 
+          <article className="card--article">
+          <img className='card-image'src={download} alt="bb" /> 
+          <div className="card--data">
+               <span className="card--description">   
+     <FaPiggyBank/>
+     </span>
+                    <h2 className='card-title'>easy</h2>
+                    <a href='#' className='card--button'> Read more </a>
+             
+          </div>
+          </article>
 
-                </div>
+          
+          <article className="card--article">
+          <img className='card-image'src={download} alt="bb" /> 
+          <div className="card--data">
+               <span className="card--description"> shshshs  </span>
+                    <h2 className='card-title'>easy</h2>
+                    <a href='#' className='card--button'> Read more </a>
+             
+          </div>
+          </article>
 
-               
-     <div className="box ">
-                    <div className='imageWord'>
-                    <p className='easyBank'> 2. Quote Generator </p>
-     <img className='easypix'src={downloaded} alt="bb" /> 
-                     </div>
+          
+          <article className="card--article">
+          <img className='card-image'src={download} alt="bb" /> 
+          <div className="card--data">
+               <span className="card--description"> shshshs  </span>
+                    <h2 className='card-title'>easy</h2>
+                    <a href='#' className='card--button'> Read more </a>
+             
+          </div>
+          </article>
 
+          
+          <article className="card--article">
+          <img className='card-image'src={download} alt="bb" /> 
+          <div className="card--data">
+               <span className="card--description"> shshshs  </span>
+                    <h2 className='card-title'>easy</h2>
+                    <a href='#' className='card--button'> Read more </a>
+             
+          </div>
+          </article>
 
-                </div>
+          
+          <article className="card--article">
+          <img className='card-image'src={download} alt="bb" /> 
+          <div className="card--data">
+               <span className="card--description"> shshshs  </span>
+                    <h2 className='card-title'>easy</h2>
+                    <a href='#' className='card--button'> Read more </a>
+             
+          </div>
+          </article>
 
-                <div className="box ">
-                    <div className='imageWord'>
-                    <p className='easyBank'> 3.EasyBank Web page</p>
-     <img className='easypix'src={download} alt="bb" /> 
-                     </div>
-
-
-                </div>
-
-
-                <div className="box ">
-                    <div className='imageWord'>
-                    <p className='easyBank'> 4. Tic Tak Toe Game</p>
-     <img className='easypix'src={download} alt="bb" /> 
-                     </div>
-
-
-                </div>
-
-
-                <div className="box ">
-                    <div className='imageWord'>
-                    <p className='easyBank'> 5. Scramble Word Game</p>
-     <img className='easypix'src={download} alt="bb" /> 
-                     </div>
-
-
-                </div>
-
-                <div className="box ">
-                    <div className='imageWord'>
-                    <p className='easyBank'> 1. EasyBank Web Page</p>
-     <img className='easypix'src={download} alt="bb" /> 
-                     </div>
-
-
-                </div>            
+        
+      </div>
+ 
            
-
-    </div>
-    </div>
+</div>
+</div>
   )
 }
 
