@@ -1,11 +1,24 @@
 .intro{
-    background-color: var(--background4selectedbox);
-    padding:15px 33px;
+    background-color:white;
+    padding:15px 23px;
+    color:black;
+    margin-left: 8rem;
+
     
     display: inline-block;
     border-top-left-radius: 25px;
-    font-size: 21px;
+    font-size: 17px;
     cursor: pointer;
+}
+
+.myIcons{
+  display: flex;
+  color:var(--background4selectedbox);
+  cursor: pointer;
+  font-size: 24px;
+  padding-top:3rem;
+  margin-left: 5rem;
+  gap:1.4rem;
 }
 .imageAndText{
     display: flex;
@@ -33,14 +46,14 @@
   @keyframes animateBorder {
     0% {
       border-color: #e71e1e;
-      transform: translate(120, 122px);
+      transform: translate(1px, 1px);
     }
     50% {
       border-color: #e4e4df;
       transform: translate(1px, 0);
     }
     100% {
-      border-color: #ccc;
+      border-color: #e07811;
       transform: translate( 0);
     }
   }
@@ -60,22 +73,21 @@
     padding-top: 7rem;
     padding-left: 9rem;
 } */
-
-/* .threeTexts{
-    margin-top: 7rem;
-    margin-left: 11rem;
-} */
+ .threeTexts{
+   width:545px;
+}
 
 
 .btn {
     background-color:var(--background4selectedbox);
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 14px 22px;
     border: none;
     font-size: 17px;;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin-left: 8rem;
     }
     
     .btn:hover {
@@ -104,7 +116,6 @@
     .btn:hover::before {
         background-color:var(--background4selectedbox);
         border-radius: 10px;
-        opacity: 25%;
     transform: scaleY(1);
     animation: hover-animation 0.6s ease-in-out infinite;
     }

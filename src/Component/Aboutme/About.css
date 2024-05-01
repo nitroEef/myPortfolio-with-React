@@ -15,13 +15,13 @@
 }
 
 .forabout{
-    height: 70vh;
+    /* height: 750vh; */
     padding:0 7rem; 
 }
 
 .aboutpix{
     display:flex;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
