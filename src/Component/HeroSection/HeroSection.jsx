@@ -1,6 +1,7 @@
 import React from 'react'
 import './HeroSection.css';
-import {  FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6';
+import {  FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaRightLong, FaTwitter, FaUser } from 'react-icons/fa6';
+import { FaBook, FaBookOpen } from 'react-icons/fa';
 
 const HeroSection = () => {
   
@@ -17,17 +18,25 @@ const HeroSection = () => {
 <div className='buttonguys'>
     <button className=' btn resume'>  My Resume</button>
     {/* <button className='btn myWork'> Contact Me</button> */}
+    
+
     <div className='myIcons'>
-    <FaGithub/> <FaLinkedin/> <FaFacebook/> <FaTwitter/> <FaInstagram/>  
+      <FaGithub className='git' />
+      <FaLinkedin className='lin' />
+      <FaFacebook className='fac' />
+      <FaTwitter className='twi' />
+      <FaInstagram className='ins' />
     </div>
+ 
+
  </div>
 
 
     </div>
 
 <div className='quotebox'>
-  <p className='thequote'>'''Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem nisi excepturi ratione mollitia beatae enim odit sint possimus esse, 
-  ea labore ullam alias molestiae repellendus harum architecto. Ipsa, eaque?'''</p>
+  <p className='thequote'>'''It is not that we use technology, we live technology.'</p>
+  <cite>   Godfrey Reggio </cite>
   </div>   
     
     </div>

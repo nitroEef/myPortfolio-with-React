@@ -4,7 +4,9 @@
 *{
   margin: 0;
   padding: 0;
-}
+  
+  }
+
 
 :root {
     --font-color: orangered; 
@@ -25,7 +27,8 @@
     font-family: var(--font);
     font-size: var(--font-size);
     background-color: rgb(34, 33, 33);
-    color:var(--fonted-color)
+    color:var(--fonted-color);
+    scroll-behavior:auto;
 }
   
 

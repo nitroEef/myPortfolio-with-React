@@ -2,7 +2,6 @@
    
     display:block;
     max-width: 100%;
-    height:auto;
      
 }
 
@@ -57,6 +56,7 @@ a{
 
 .card-image{
     width:328px;
+    height:328px;
     border-radius: 1.5rem;
 }
 
