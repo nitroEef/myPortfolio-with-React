@@ -12,10 +12,10 @@ function App() {
   return (
     
       <div>
-          {/* <Header/>
+           <Header/>
         <HeroSection/>
         <Aboutme/>
-        <Skills/>  */}
+        <Skills/>  
         <Project/>
         <Contact/> 
         

@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeroSection.css';
-import { Fa4, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6';
+import {  FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6';
 
 const HeroSection = () => {
   
@@ -18,7 +18,7 @@ const HeroSection = () => {
     <button className=' btn resume'>  My Resume</button>
     {/* <button className='btn myWork'> Contact Me</button> */}
     <div className='myIcons'>
-    <FaGithub/> <FaLinkedin/> <FaFacebook/> <FaTwitter/> <FaInstagram/>
+    <FaGithub/> <FaLinkedin/> <FaFacebook/> <FaTwitter/> <FaInstagram/>  
     </div>
  </div>
 

@@ -5,6 +5,17 @@
     height:auto;
      
 }
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.ooo{
+    display:block;
+    max-width: 100%;
+    height:auto;
+}
 .eefqqqd{
     margin-top:4rem;
 }
@@ -15,17 +26,6 @@
     text-align: center;
 }
 
-/* .container{
-    display:grid;
-    place-items: center;
-    margin-inline:1.5rem;
-    padding-block:5rem;
-}
-
-.card--container{
-    display:grid;
-    row-gap:3.5rem;
-} */
 
 
 
@@ -62,7 +62,7 @@
 
 .card--data{
     width:280px;
-    background-color:orangered;
+    background-color:rgb(38, 37, 37);
     padding:1.5rem 1.2rem;
     box-shadow: 0 8px 24px (0, 0%, 0%, .15);
     border-radius: 1rem;
@@ -78,16 +78,33 @@
 
 .card--description{
     display:block;
-    font-size: 17px;
-    margin-bottom: .25rem;
+    font-size:30px;
+    color :white;
+    text-align: right;
+    /* margin-bottom: .25rem; */
+
 }
 
-
-.card--title{
-    font-size: 23px;
-    font-weight:500;
+.githublink{
+    text-align:right;
+    margin-top: 2rem;
+    padding-right: 16rem;
+    font-size: 1.5rem;
+}
+.card-title{
+    font-size: 32px;
+    font-weight:700;
     color:white;
     margin-bottom:.75rem ;
+    text-align: center;
+}
+
+.card--button {
+    text-align: center;
+    color:orangered;
+    font-weight: 600;
+
+ ;   font-size: 24px;
 }
 
 .card--button:hover{

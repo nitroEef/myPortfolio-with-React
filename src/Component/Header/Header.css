@@ -11,13 +11,13 @@ header {
   z-index: 1;
   background-color: rgb(35, 33, 33);
 }
-.centerLink .ile ul{
+/* .centerLink .ile ul{
   color: var(--background4selectedbox);
-}
+} */
 .centerLink a{
   position: relative;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 21px;
   color:white;
 }
 .centerLink a:hover{
@@ -49,7 +49,7 @@ header {
 .centerLink ul {
   display: flex;
   list-style-type: none;
-  gap: 52px;
+  gap: 42px;
 }
 
 
