@@ -1,8 +1,8 @@
-.intro{
+.introbox{
     background-color:var(--background4selectedbox);
     padding:15px 23px;
     color:white;
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
 
     
     display: inline-block;
@@ -14,7 +14,7 @@
   display: flex;
   gap:1.5rem;
   padding-top:3rem;
-  margin-left: 3.6rem;
+  /* margin-left: 3.6rem; */
   cursor: pointer;
   font-size: 26px;
 }
@@ -52,28 +52,24 @@ color:red;
 .imageAndText{
     display: flex;
     justify-content: space-between;
-    padding:10rem 9rem;
+    padding:9rem 9rem;
     /* background-color: red; */
 
   }
 
   .thequote{
-    width:555px;
-    
     font-size: 32px;
     padding: 2rem;
-    margin-top: 3rem;
     letter-spacing: 1px;
     text-align: center;
-
-
+    margin-top: 3rem;
   }
 
   cite{
     text-align: center;
     font-size: 32px;
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
     color:orangered;}
   
   .quotebox{
@@ -81,6 +77,8 @@ color:red;
     border-bottom-right-radius: 12px;
     background-color: #2c2b2b;
     display: grid;
+    width:555px;
+
     border: 2px solid orangered;
     animation: animateBorder infinite 1s linear;
 
@@ -101,18 +99,7 @@ color:red;
       transform: translate( 0);
     }
   }
-  
 
-/* .introTwo{
-    width:472px;
-    margin-top: 1.5rem;
-    font-size: 57px;
-    font-weight: 700;
-    
-      
-    
-    
-} */
 .introTwo {
   width: 472px;
   margin-top: 1.5rem;
@@ -130,7 +117,8 @@ color:red;
     padding-top: 7rem;
     padding-left: 9rem;
 } */
- .threeTexts{
+ 
+.threeTexts{
    width:545px;
 }
 
@@ -144,7 +132,7 @@ color:red;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
     }
     
     .btn:hover {
@@ -207,3 +195,97 @@ color:red;
     width:355px
   }
 
+
+
+  @media (min-width: 1115px) and (max-width: 1200px) {
+    .imageAndText{
+      display: flex;
+      background-color: red;
+
+  }
+  .quotebox{
+    background-color: brown;
+    width: 100%;
+  }
+
+  .thequote{
+    font-size: 27px;
+    /* padding: 2rem; */
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 3rem;
+    /* width: 111%; */
+}
+.threeTexts{
+  width:445px;
+}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 701px) and (max-width: 1173px) {
+    /* .imageAndText{
+      display: grid;
+      
+
+  }
+  .threeTexts{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-items:center;
+    align-items: center;
+    padding-left: 7rem;
+
+
+  } */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 577px) and (max-width: 700px) {}
+@media (min-width: 464px) and (max-width: 576px) { }
+@media (min-width: 357px) and (max-width: 465px) {}
+@media (min-width: 264px) and (max-width: 356px) {}
+
+
+
+
+
+  
+
+  

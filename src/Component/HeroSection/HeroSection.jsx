@@ -12,7 +12,7 @@ const HeroSection = () => {
     <div className='imageAndText'>
         <div className='threeTexts'>
    
-    <h2 className='intro'>Hello, I am!</h2>
+    <h2 className='introbox'>Hello, I am!</h2>
     <h3 className='introTwo'>Ogbeni NitroEef</h3>
     <h4 className='introThree'>a professional web developer and UI/UX designer</h4>
 <div className='buttonguys'>
