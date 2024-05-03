@@ -13,13 +13,13 @@ function App() {
   return (
     
       <div>
-            <Header/> 
+            {/* <Header/>  */}
         <HeroSection/>
-         <Aboutme/>
+         {/* <Aboutme/>
         <Skills/>  
        <Project/> 
         <Contact/>  
-        <Footer/> 
+        <Footer/>  */}
         
         </div>
   
