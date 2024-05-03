@@ -197,7 +197,7 @@ color:red;
 
 
 
-  @media (min-width: 1115px) and (max-width: 1200px) {
+  @media (min-width: 1130px) and (max-width: 1200px) {
     .imageAndText{
       display: flex;
       background-color: red;
@@ -205,7 +205,8 @@ color:red;
   }
   .quotebox{
     background-color: brown;
-    width: 100%;
+    width: 534px;
+    margin-left: 7rem;
   }
 
   .thequote{
@@ -214,8 +215,15 @@ color:red;
     letter-spacing: 1px;
     text-align: center;
     margin-top: 3rem;
-    /* width: 111%; */
+    width: 534pz;
 }
+
+.introTwo {
+  width: 372px;
+  margin-top: 1.5rem;
+  font-size: 47px;
+  font-weight: 700;}
+
 .threeTexts{
   width:445px;
 }
@@ -234,21 +242,35 @@ color:red;
 
 
 
-  @media (min-width: 701px) and (max-width: 1173px) {
-    /* .imageAndText{
+  @media (min-width: 901px) and (max-width: 1129px) {
+    .imageAndText{
       display: grid;
-      
+      background-color: rgb(100, 232, 76);
 
   }
-  .threeTexts{
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    justify-items:center;
-    align-items: center;
-    padding-left: 7rem;
+  .quotebox{
+    /* background-color: brown;
+    width: 534px;
+    margin-left: 7rem; */
+  }
+
+  .thequote{
+    /* font-size: 27px;
+    /* padding: 2rem; */
+    /* letter-spacing: 1px;
+    text-align: center;
+    margin-top: 3rem;
+    width: 534pz; */
+} */
 
 
-  } */
+.threeTexts{
+  display: grid;
+  padding-left: 11rem;
+  /* grid-template-columns: (3fr); */
+}
+
+   
   }
 
 
