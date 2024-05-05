@@ -15,7 +15,6 @@
 }
 
 .forabout{
-    /* height: 750vh; */
     padding:0 7rem; 
 }
 
@@ -25,3 +24,123 @@
     margin-top: 2rem;
 }
 
+@media (min-width:1205px) and (max-width:1400px) {
+    .forabout{
+        background-color: yellow;
+    }
+.ogbeni{
+    width: 595px;
+}
+    
+}
+
+
+@media (min-width:641px) and (max-width:1205px) {
+    .forabout{
+        background-color: rgb(255, 72, 0);
+    }
+.ogbeni{
+    width: 100%;
+    /* padding:6rem; */
+    line-height: 2rem;
+     align-items: center; 
+}
+
+.aboutpix{
+    display: grid;
+
+}
+
+.firstImage{
+    margin: 0 auto;
+}
+    
+}
+
+
+@media (min-width:495px) and (max-width:640px) {
+    .forabout{
+        background-color: rgb(30, 1, 175);
+    }
+.ogbeni{
+    width:414px;
+    line-height: 2rem;
+     align-items: right;
+     font-size: 16px; 
+}
+.aboutpix{
+    display: grid;
+
+}
+
+.firstImage{
+    margin: 0 auto;
+}
+.forabout{
+    padding:0 4rem; 
+    align-items: center;
+}
+
+}
+
+
+@media (min-width:430px) and (max-width:495px) {
+    .forabout{
+        background-color: rgb(168, 164, 189);
+    }
+.ogbeni{
+    width:374px;
+    line-height: 2rem;
+     align-items: right;
+     font-size: 16px; 
+}
+.aboutpix{
+    display: grid;
+
+}
+
+.firstImage{
+    margin: 0 auto;
+    justify-content: right;
+   
+}
+
+
+.forabout{
+    padding:0 2rem; 
+    align-items: center;
+}
+
+}
+
+
+@media (min-width:330px) and (max-width:430px) {
+    .forabout{
+        background-color: rgb(46, 170, 192);
+    }
+.ogbeni{
+    width:304px;
+    line-height: 2rem;
+     align-items: left;
+     font-size: 14px;
+     padding: 0 2rem; 
+}
+.aboutpix{
+    display: grid;
+
+}
+
+.firstImage{
+    margin: 0 auto;
+    justify-content: right;
+   
+}
+
+
+
+.forabout{
+    padding:0 1rem; 
+    align-items: center;
+}
+
+}

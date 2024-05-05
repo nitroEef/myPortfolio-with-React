@@ -79,13 +79,13 @@ const Project = () => {
           </div>
           </article>
 
-        
+          </div>
+ <div className="githublink"> <a href=''>Check my Github to See More</a> </div>
+</div>
       </div>
  
            
-</div>
- <div className="githublink"> <a href=''>Check my Github to See More</a> </div>
-</div>
+
   )
 }
 

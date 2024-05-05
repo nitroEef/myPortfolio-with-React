@@ -86,9 +86,8 @@ a{
 }
 
 .githublink{
-    text-align:right;
     margin-top: 2rem;
-    padding-right: 16rem;
+    float:right;
     font-size: 1.5rem;
 }
 .card-title{
@@ -162,9 +161,104 @@ a{
         overflow: hidden;
     }}
 
-    @media (min-width:1100px) and (max-width:1483px) {
+
+
+    @media (min-width:959px) and (max-width:1480px) {
      .card-image{
-        width: 277px;
-        height: 277px;
+        width: 327px;
+        height: 327px;
+        /* margin: 0 auto; */
      }
-      }
+     .card--container{
+        display:grid;
+        grid-template-columns:auto auto;
+    gap:3rem;    }
+    
+     .eefqqqd{
+        background-color: red;
+     }
+     .githublink a{
+            text-align: center;
+      }}
+
+      @media (min-width:803px) and (max-width:958px) {
+        .card-image{
+           width: 277px;
+           height: 277px;
+           border-radius: 1.1rem;
+           /* margin: 0 auto; */
+        }
+        .card--container{
+           display:flex;
+           flex-wrap: wrap;
+           gap:3rem;
+     }
+     .card--data{
+        width:212px;
+     }
+     .card--description{
+        font-size:26px;
+        color :white;}
+
+        .card-title{
+            font-size: 26px;
+        }
+
+        .eefqqqd{
+           background-color: red;
+        }
+        .githublink a{
+               text-align: center;
+         }}
+
+
+         @media (min-width:721px) and (max-width:803px) {
+            .card-image{
+               width: 247px;
+               height: 247px;
+               /* margin: 0 auto; */
+            }
+            .card--container{
+               display:flex;
+               flex-wrap: wrap;
+               column-gap: 3rem;
+               row-gap: 4rem;
+         }
+         .card--data{
+            width:202px;
+         }
+         .card--description{
+            font-size:26px;
+            color :white;}
+    
+            .card-title{
+                font-size: 22px;
+            }
+    
+         }
+
+
+
+         @media (min-width:364px) and (max-width:721px) {
+            .card-image{
+               width: 227px;
+               height: 217px;
+               /* margin: 0 auto; */
+            }
+            .card--container{
+           justify-content: center;
+         }
+         .card--data{
+            width:185px;
+         }
+         .card--description{
+            font-size:26px;
+            color :white;}
+    
+            .card-title{
+                font-size: 22px;
+            }
+    .githublink{
+        font-size: 1rem;
+    }    
+         }
