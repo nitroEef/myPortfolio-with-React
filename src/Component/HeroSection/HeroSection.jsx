@@ -13,11 +13,9 @@ const HeroSection = () => {
         <div className='threeTexts'>
    
     <h2 className='introbox'>Hello, I am!</h2>
-    <h3 className='introTwo'>Ogbeni NitroEef</h3>
-    <h4 className='introThree'>a professional web developer and UI/UX designer</h4>
-<div className='buttonguys'>
+    <h3 className='introOgbeni'>Ogbeni NitroEef</h3>
+    <h4 className='introweb'>a professional web developer and UI/UX designer</h4>
     <button className=' btn resume'>  My Resume</button>
-    {/* <button className='btn myWork'> Contact Me</button> */}
     
 
     <div className='myIcons'>
@@ -27,15 +25,10 @@ const HeroSection = () => {
       <FaTwitter className='twi' />
       <FaInstagram className='ins' />
     </div>
- 
-
- </div>
-
-
     </div>
 
 <div className='quotebox'>
-  <p className='thequote'>'''It is not that we use technology, we live technology.'</p>
+  <p className='quotext'>'''It is not that we use technology, we live technology.'</p>
   <cite>   Godfrey Reggio </cite>
   </div>   
     

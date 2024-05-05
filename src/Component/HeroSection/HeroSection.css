@@ -2,19 +2,16 @@
     background-color:var(--background4selectedbox);
     padding:15px 23px;
     color:white;
-    /* margin-left: 8rem; */
-
-    
     display: inline-block;
     border-top-left-radius: 25px;
     font-size: 17px;
     cursor: pointer;
 }
+
 .myIcons {
   display: flex;
   gap:1.5rem;
   padding-top:3rem;
-  /* margin-left: 3.6rem; */
   cursor: pointer;
   font-size: 26px;
 }
@@ -35,29 +32,14 @@
   }
   
 
-
-
-/* .myIcons{
-  display: flex;
-  color:white;
-  cursor: pointer;
-  font-size: 24px;
-  padding-top:3rem;
-  margin-left: 5rem;
-  gap:1.4rem;
-}
-.myIcons:hover{
-color:red;
-} */
 .imageAndText{
     display: flex;
     justify-content: space-between;
     padding:9rem 9rem;
-    /* background-color: red; */
 
   }
 
-  .thequote{
+  .quotext{
     font-size: 32px;
     padding: 2rem;
     letter-spacing: 1px;
@@ -78,13 +60,13 @@ color:red;
     background-color: #2c2b2b;
     display: grid;
     width:555px;
-
     border: 2px solid orangered;
     animation: animateBorder infinite 1s linear;
-
-     border-right: 4px solid var(--background4selectedbox); 
+    border-right: 4px solid var(--background4selectedbox); 
     border-top: 3px solid var(--background4selectedbox);
   }
+
+
   @keyframes animateBorder {
     0% {
       border-color: #e71e1e;
@@ -100,23 +82,20 @@ color:red;
     }
   }
 
-.introTwo {
+.introOgbeni {
   width: 472px;
   margin-top: 1.5rem;
   font-size: 57px;
   font-weight: 700;
-  -webkit-font-smoothing: antialiased; /* Makes the font appear smoother on WebKit browsers */
-  -webkit-text-stroke: 3px rgb(0, 0, 0); /* Adds a transparent text stroke to improve readability */
+  -webkit-font-smoothing: antialiased; 
+  -webkit-text-stroke: 3px rgb(0, 0, 0); 
 }
 
 
-.introThree{
+.introweb{
     font-weight: 400;
     margin-top: 1rem;}
-/* .twoTexts{
-    padding-top: 7rem;
-    padding-left: 9rem;
-} */
+
  
 .threeTexts{
    width:545px;
@@ -127,12 +106,12 @@ color:red;
     background-color:var(--background4selectedbox);
     color: #fff;
     padding: 14px 22px;
+    margin-top: 1rem;
     border: none;
     font-size: 17px;;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    /* margin-left: 8rem; */
     }
     
     .btn:hover {
@@ -178,136 +157,166 @@ color:red;
     }
 
 
-.buttonguys{
-    margin-top: 2rem;
-    gap:4rem;
-}
-
 .myWork{
     margin-left: 1rem;
 }
-
-
-
 
   .firstImage{
     height: 435px;
     width:355px
   }
 
+ @media (min-width:1000px) and (max-width:1200px) {
+   .imageAndText{
+    background-color: red;
+    justify-content: space-between;
+   }
+   .threeTexts{
+    width:415px;
+ }
+ .quotebox{
+  width:455px;
+ }
+ .introOgbeni{
+  width:372px;
+  font-size: 42px;
+ }
+ .introweb{
+  width:322px;
+ }
+ .quotext{
+  font-size: 26px;
+  padding: 1.6rem;
+ }
+ .myIcons {
+  gap:1.2rem;
+  font-size: 23px;
+}
+ } 
 
 
-  @media (min-width: 1130px) and (max-width: 1200px) {
-    .imageAndText{
-      display: flex;
-      background-color: red;
+
+
+
+ @media (min-width:650px) and (max-width:999px) {
+  .imageAndText{
+   background-color: rgb(216, 216, 32);
+   display: flex;
+   flex-wrap: wrap;
+   padding:9rem 7rem;
 
   }
-  .quotebox{
-    background-color: brown;
-    width: 534px;
-    margin-left: 7rem;
-  }
-
-  .thequote{
-    font-size: 27px;
-    /* padding: 2rem; */
-    letter-spacing: 1px;
+ 
+  .introbox{
     text-align: center;
-    margin-top: 3rem;
-    width: 534pz;
-}
-
-.introTwo {
-  width: 372px;
-  margin-top: 1.5rem;
-  font-size: 47px;
-  font-weight: 700;}
-
-.threeTexts{
-  width:445px;
-}
+   
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.4rem 3rem;
+    font-size: 1.4rem;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media (min-width: 901px) and (max-width: 1129px) {
-    .imageAndText{
-      display: grid;
-      background-color: rgb(100, 232, 76);
-
-  }
   .quotebox{
-    /* background-color: brown;
-    width: 534px;
-    margin-left: 7rem; */
+    margin-top: 5rem;
+    padding-bottom:3rem;
+    width:744px;
+    
   }
-
-  .thequote{
-    /* font-size: 27px;
-    /* padding: 2rem; */
-    /* letter-spacing: 1px;
-    text-align: center;
-    margin-top: 3rem;
-    width: 534pz; */
-} */
-
-
-.threeTexts{
-  display: grid;
-  padding-left: 11rem;
-  /* grid-template-columns: (3fr); */
+  .quotext{
+    font-size: 22px;
+    padding: 1.3rem;
+  }
 }
+
+@media (min-width:400px) and (max-width:649px) {
+  .imageAndText{
+   background-color: rgb(69, 32, 216);
+   display: flex;
+   flex-wrap: wrap;
+   padding:9rem 5rem;
 
    
   }
+  cite{
+    font-size: 26px;
 
+  }
+  .introOgbeni{
+    width:305px;
+    font-size: 37px;
+  }
+  .introbox{
+    text-align: center;
+   
+  }
 
+  .myIcons {
+    gap:1rem;
+    font-size: 20px;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
 
+  .quotebox{
+    margin-top: 5rem;
+    padding-bottom:3rem;
+    width: 773px;
+    /* width:544px; */
+    
+  }
+  .quotext{
+    font-size: 22px;
+  }
+}
 
+@media (min-width:300px) and (max-width:399px) {
+  .imageAndText{
+   background-color: rgb(69, 32, 216);
+   display: flex;
+   flex-wrap: wrap;
+   padding:9rem 5rem;
 
+   
+  }
+  cite{
+    font-size: 26px;
 
+  }
+  .introOgbeni{
+    width:305px;
+    font-size: 37px;
+  }
+  .introbox{
+    text-align: center;
+   
+  }
 
+  .myIcons {
+    gap:1rem;
+    font-size: 20px;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media (min-width: 577px) and (max-width: 700px) {}
-@media (min-width: 464px) and (max-width: 576px) { }
-@media (min-width: 357px) and (max-width: 465px) {}
-@media (min-width: 264px) and (max-width: 356px) {}
-
-
-
-
-
-  
-
-  
+  .quotebox{
+    margin-top: 5rem;
+    padding-bottom:3rem;
+    width: 773px;
+    /* width:544px; */
+    
+  }
+  .quotext{
+    font-size: 22px;
+  }
+}
