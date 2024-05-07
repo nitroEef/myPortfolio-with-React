@@ -57,3 +57,33 @@ header {
 .homed a{
   color:var(--background4selectedbox)
 }
+
+@media (min-width:750px) and (max-width:1000px)  {
+  header{
+    background-color: rgb(156, 131, 131);
+  }
+
+  .centerLink ul {
+  
+    gap: 24px;
+  }
+  
+  .centerLink a{
+
+    font-size: 18px;
+}}
+
+@media (min-width:510px) and (max-width:749px)  {
+  header{
+    background-color: rgb(113, 199, 167);
+  }
+
+  .centerLink ul {
+  
+    gap: 14px;
+  }
+  
+  .centerLink a{
+
+    font-size: 16px;
+}}

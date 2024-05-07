@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css'
 import { Link } from 'react-router-dom';
+import { FaBars } from 'react-icons/fa6';
+import { FaTimes } from 'react-icons/fa';
 
   const Header = () => {
     return (
@@ -21,8 +23,14 @@ import { Link } from 'react-router-dom';
             <li><a href='/'>Projects</a></li>
             <li ><a href='/'> Contact Me</a></li>
         </ul>
+
+        {/* <button className="nav-btn" onClick={showNavbar}>
+        <FaBars/>
+        </button> */}
         </div>
-     
+
+       
+        <FaTimes/>
            
         </header>
        

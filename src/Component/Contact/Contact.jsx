@@ -15,7 +15,7 @@ import './Contact.css';
 
     emailjs
       .sendForm('service_8tv13mf', 'template_oc982mi', form.current, {
-        publicKey: 'u0i5CqgP_bDi13I49',
+        publicKey: 'r2liTY1xeESUGT8I8',
       })
       .then(
         () => {

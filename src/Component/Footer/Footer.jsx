@@ -12,8 +12,10 @@ const Footer = () => {
         <h3 className='mynumber'>+2348136340736</h3>
       </div>
 
+
       
-        
+        <div className='linkandtext'>
+          <p className='SOC'>My Social Links</p>
         <div className='myIcons'>
       <FaGithub className='git' />
       <FaLinkedin className='lin' />
@@ -21,6 +23,15 @@ const Footer = () => {
       <FaTwitter className='twi' />
       <FaInstagram className='ins' />
     </div>
+    </div>
+
+
+    <div className='copyright'>
+      <p className='for_copyright'>&copy;copyright 2024</p>
+      <p className='for_copyright'>Olabode Ajibade</p>
+
+
+      </div>
     </div>
   )
 }
