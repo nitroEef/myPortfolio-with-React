@@ -40,10 +40,12 @@
         background-color: rgb(255, 72, 0);
     }
 .ogbeni{
-    width: 100%;
+   width: 575px;
     /* padding:6rem; */
     line-height: 2rem;
-     align-items: center; 
+    margin-left:-1rem;
+    line-clamp: 4rem;
+    text-align: left;
 }
 
 .aboutpix{
@@ -52,8 +54,12 @@
 }
 
 .firstImage{
+    max-width:95%;
     margin: 0 auto;
-}
+    display: block;
+ 
+    
+ }
     
 }
 
@@ -100,10 +106,12 @@
 }
 
 .firstImage{
+    max-width:95%;
     margin: 0 auto;
-    justify-content: right;
-   
-}
+    display: block;
+ 
+    
+ }
 
 
 .forabout{
@@ -114,16 +122,15 @@
 }
 
 
-@media (min-width:330px) and (max-width:430px) {
+@media (min-width:384px) and (max-width:430px) {
     .forabout{
         background-color: rgb(46, 170, 192);
     }
 .ogbeni{
-    width:304px;
+    width:317px;
     line-height: 2rem;
-     align-items: left;
-     font-size: 14px;
-     padding: 0 2rem; 
+     font-size: 16px;
+     padding: 0 1.5rem; 
 }
 .aboutpix{
     display: grid;
@@ -131,8 +138,10 @@
 }
 
 .firstImage{
-    margin: 0 auto;
-    justify-content: right;
+   max-width:65%;
+   margin: 0 auto;
+   display: block;
+
    
 }
 
