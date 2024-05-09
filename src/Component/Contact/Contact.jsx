@@ -14,8 +14,8 @@ import './Contact.css';
 
 
     emailjs
-      .sendForm('service_8tv13mf', 'template_oc982mi', form.current, {
-        publicKey: 'r2liTY1xeESUGT8I8',
+      .sendForm('service_if797uo', 'template_1m8u6fr', form.current, {
+        publicKey: 'YwXbC3UF5t9HQEsUR',
       })
       .then(
         () => {

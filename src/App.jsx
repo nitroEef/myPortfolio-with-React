@@ -5,6 +5,7 @@ import Project from "./Component/Projects/Project"
 import Skills from "./Component/Skills/Skills"
 import Contact from "./Component/Contact/Contact"
 import Footer from "./Component/Footer/Footer"
+import Navbar from "./Component/Navbar/Navbar"
 
 
 function App() {
@@ -13,13 +14,15 @@ function App() {
   return (
     
       <div>
-         {/* <Header/>     
-        <HeroSection/> 
-       <Aboutme/>  */}
-   {/* <Project/>    
+     <Navbar/>
+         {/* <Header/> 
+    
+         <HeroSection/>  
+        <Aboutme/> 
+    <Project/>    
         <Skills/>     
-        <Footer/>        */}
-        <Contact/>   
+        <Footer/>       
+       <Contact/>     */}
         
         </div>
   
