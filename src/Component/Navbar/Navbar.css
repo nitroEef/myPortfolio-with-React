@@ -7,11 +7,18 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 80px;
+    justify-content: space-around;
+    height: 115px;
     padding: 0 2rem;
-    background-color: red;
-    color: white;
+    
+}
+
+.fir{
+    width:122px;
+    height:72px;
+    background-color: rgb(240, 235, 235);
+    margin-left: -6rem;
+    border-radius: 35% 45% 24%;
 }
 
 nav {
@@ -21,13 +28,37 @@ nav {
 
 nav a {
     margin: 0 2rem;
-    color: black;
     text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 22px;
 }
 
-nav a:hover {
-    color: yellow;
-}
+nav a:hover{
+    font-weight: 600;
+    color: var(--background4selectedbox);
+  }
+  nav a::after{
+    content:" ";
+    position:absolute;
+    width:100%;
+    height:5px;
+    background-color:var(--background4selectedbox);
+    border-radius: 5px;
+    left:0;
+    top:2.7rem;
+    transform:scaleX(0);
+    transform-origin: right;
+    transition: transform .6s;
+  
+  
+  }
+  
+  nav a:hover::after{
+    transform: scaleY(1);
+    transform-origin:left;
+  
+  }
 
 .nav-btn {
     padding: 5px;
@@ -39,10 +70,29 @@ nav a:hover {
     font-size: 1.7rem;
 }
 
-.navbar {
-    display: none; /* Initially hide the menu */
-}
+.nav-btn {
+    display: none;
+} 
 
+
+/* .responsive_nav a {
+    margin: 10px 0; 
+    font-size: 1.6rem;
+    color: white; 
+} */
+
+
+@media screen and (max-width: 856px) {
+
+    .nav-btn {
+        display: block;
+    }
+
+ .navbar {
+        display: none;
+    }
+
+    
 .responsive_nav {
     display: flex;
     flex-direction: column;
@@ -53,24 +103,10 @@ nav a:hover {
     background-color: purple;
 }
 
-.responsive_nav a {
-    margin: 10px 0; /* Adjust spacing */
-    font-size: 1.6rem;
-    color: white; /* Adjust link color */
-}
+    /* .responsive_nav {
 
-@media only screen and (max-width: 1024px) {
-    .nav-btn {
-        display: block;
-    }
-
-    .navbar {
-        display: none;
-    }
-
-    .responsive_nav {
         top: 0;
-    }
+    } */
 
     .responsive_nav a {
         margin: 20px 0; /* Adjust spacing */

@@ -42,23 +42,22 @@ padding:4rem 0;
     padding-top: 1rem;
     font-size: 22px;
   }
-@media (min-width: 557px) and (max-width: 856px) {
+@media (min-width: 628px) and (max-width:885px) {
 
     .footer{
         background-color: rgb(0, 255, 30);
        display: flex;
        flex-wrap: wrap;
-       gap:3rem;
+       gap:4rem;
         }
 
     
 .myIcons {
     display: flex;
     gap:1rem;
-    padding-top:0;
     /* text-align: center; */
     /* justify-content: center; */
-    font-size: 12px;
+    font-size: 36px;
     padding-top: 1rem;
   }
 
@@ -97,21 +96,22 @@ padding:4rem 0;
 
 
 
-@media (min-width: 164px) and (max-width: 555px) {
+@media (min-width: 164px) and (max-width: 627px) {
 
     .footer{
         background-color: red;
         display: grid;
-        gap: 3rem;
+        gap: 6rem;
         }
 
     
 .myIcons {
     display: flex;
     gap:1rem;
-    padding-top:0;
-    
-    font-size: 12px;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+    font-size: 36px;
     padding-top: 1rem;
   }
 

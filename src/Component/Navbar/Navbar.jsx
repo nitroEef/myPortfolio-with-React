@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
 import "./Navbar.css";
+import { hy } from '../../assets';
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,17 +13,20 @@ function Navbar() {
 
   return (
     <header>
-      <h3>logo</h3>
+     <img className='fir'src={hy} alt="bb" /> 
+      
       <nav className={`navbar ${isOpen ? "responsive_nav" : ""}`}>
-        <a href='/#'>Home</a>
-        <a href='/#'>About me</a>
-        <a href='/#'>Skills</a>
-        <a href='/#'>Projects</a>
-        <a href='/#'>Contacts</a>
+        <a href="/#">Home</a>
+        <a href="/#">About me</a>
+        <a href="/#">Skills</a>
+        <a href="/#">Projects</a>
+        <a href="/#">Contacts</a>
       </nav>
-      <button className="nav-btn" onClick={toggleNavbar}>
-        {isOpen ? <FaTimes /> : <FaBars />}
-      </button>
+      <div className="nav-btn menu-con">
+        <button className="nav-btn" onClick={toggleNavbar}>
+          {isOpen ? <FaTimes /> : <FaBars />}
+        </button>
+      </div>
     </header>
   );
 }

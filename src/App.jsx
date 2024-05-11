@@ -14,15 +14,19 @@ function App() {
   return (
     
       <div>
-     <Navbar/>
-         {/* <Header/> 
+
+        <div className="double">
+     {/* <Navbar/>  */}
+         {/* <Header/>  */}
     
-         <HeroSection/>  
-        <Aboutme/> 
-    <Project/>    
+          <HeroSection/>  
+          </div>
+        {/* <Aboutme/> 
+    <Project/>  
+      
         <Skills/>     
-        <Footer/>       
-       <Contact/>     */}
+       <Contact/>      
+        <Footer/>        */}
         
         </div>
   

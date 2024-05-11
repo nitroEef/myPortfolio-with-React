@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 *{
   margin: 0;
   padding: 0;
@@ -26,10 +27,14 @@
  body{
     font-family: var(--font);
     font-size: var(--font-size);
-    background-color: rgb(2, 65, 64);
+    background-repeat: no-repeat;
+    background-size: 111%;
     color:var(--fonted-color);
     scroll-behavior:auto;
 }
-  
+  .double{
+    background-image: url("./assets/cool-background.png"); 
+height: 100vh;
+  }
 
 

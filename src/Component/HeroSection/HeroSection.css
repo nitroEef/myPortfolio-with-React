@@ -13,20 +13,25 @@
   gap:1.5rem;
   padding-top:3rem;
   cursor: pointer;
-  font-size: 26px;
 }
 
 .lin,.git,.fac,.twi,.ins{
-  border:1px solid white;
+  border:1px solid rgb(42, 40, 40);
+  font-size: 38px;
+
   padding: 5px;
-  color:rgb(233, 228, 228);
+  color:black;
   border-radius: 12px;
-  box-shadow: rgba(205, 206, 208, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-  transition: transform 0.3s ease-in-out;
-  background-color: black;
+  box-shadow: rgba(202, 135, 12, 0.27) 0px 0px 0.25em, rgba(238, 122, 14, 0.05) 0px 0.25em 1em;
+  transition: transform 0.7s ease-in-out;
+  background-color: rgb(252, 247, 247);
   
 }
 
+.git{
+  background-color: var(--background4selectedbox);
+  color:white;
+}
 .lin:hover, .git:hover,.fac:hover,.twi:hover,.ins:hover{
  transform: scale(1.2); 
   }
@@ -88,13 +93,14 @@
   font-size: 57px;
   font-weight: 700;
   -webkit-font-smoothing: antialiased; 
-  -webkit-text-stroke: 3px rgb(0, 0, 0); 
+  -webkit-text-stroke: 1px rgb(20, 20, 20); 
 }
 
 
 .introweb{
     font-weight: 400;
-    margin-top: 1rem;}
+    margin-top: 1rem;
+  font-size: 25px;}
 
  
 .threeTexts{
@@ -171,59 +177,21 @@
     background-color: red;
     justify-content: space-between;
    }
-   .threeTexts{
-    width:415px;
- }
- .quotebox{
-  width:455px;
- }
- .introOgbeni{
-  width:372px;
-  font-size: 42px;
- }
- .introweb{
-  width:322px;
- }
- .quotext{
-  font-size: 26px;
-  padding: 1.6rem;
- }
- .myIcons {
-  gap:1.2rem;
-  font-size: 23px;
-}
- } 
 
 
 
+  }
 
-
- @media (min-width:650px) and (max-width:999px) {
+ @media (min-width:849px) and (max-width:905px) {
   .imageAndText{
    background-color: rgb(216, 216, 32);
-   display: flex;
-   flex-wrap: wrap;
-   padding:9rem 7rem;
-
-  }
- 
-  .introbox{
-    text-align: center;
-   
-  }
-  .btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:1.4rem 3rem;
-    font-size: 1.4rem;
+   padding: 5rem 7rem;
+   display:grid;
   }
 
   .quotebox{
+    width:554px;
     margin-top: 5rem;
-    padding-bottom:3rem;
-    width:744px;
-    
   }
   .quotext{
     font-size: 22px;
@@ -231,57 +199,53 @@
   }
 }
 
-@media (min-width:400px) and (max-width:649px) {
+@media (min-width:650px) and (max-width:850px) {
   .imageAndText{
-   background-color: rgb(69, 32, 216);
-   display: flex;
-   flex-wrap: wrap;
-   padding:9rem 5rem;
-
+   background-color: rgb(26, 136, 138);
    
+   display: grid;
+   justify-content: space-between;
+   padding:4rem 3rem;
   }
-  cite{
-    font-size: 26px;
-
-  }
-  .introOgbeni{
-    width:305px;
-    font-size: 37px;
-  }
-  .introbox{
-    text-align: center;
-   
+.quotebox{
+  width:563px;
+}
+  .myIcons{
+    /* width:555px; */
+    margin-bottom: 7rem;
   }
 
-  .myIcons {
-    gap:1rem;
-    font-size: 20px;
-  }
-  .btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-  }
-
-  .quotebox{
-    margin-top: 5rem;
-    padding-bottom:3rem;
-    width: 773px;
-    /* width:544px; */
-    
-  }
-  .quotext{
-    font-size: 22px;
-  }
 }
 
+@media (min-width:400px) and (max-width:650px) {
+  
+  .imageAndText{
+    background-color: rgb(138, 65, 26);
+    
+    display: grid;
+    padding:4rem 1rem;
+
+   }
+
+ .threeTexts{
+  padding: 0 4rem;
+ }
+ .quotebox{
+   width:373px;
+   margin: 0 auto;
+ }
+   .myIcons{
+     /* width:555px; */
+     margin-bottom: 7rem;
+   }
+ 
+ }
+ 
 @media (min-width:300px) and (max-width:399px) {
   .imageAndText{
-   background-color: rgb(69, 32, 216);
+   background-color: rgb(216, 75, 32);
    display: flex;
    flex-wrap: wrap;
-   padding:9rem 5rem;
 
    
   }
@@ -307,14 +271,6 @@
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-  }
-
-  .quotebox{
-    margin-top: 5rem;
-    padding-bottom:3rem;
-    width: 773px;
-    /* width:544px; */
-    
   }
   .quotext{
     font-size: 22px;
