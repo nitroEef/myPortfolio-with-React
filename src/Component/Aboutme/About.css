@@ -153,3 +153,35 @@
 }
 
 }
+
+@media (min-width:314px) and (max-width:384px) {
+    .forabout{
+        background-color: rgb(46, 170, 192);
+    }
+.ogbeni{
+    width:317px;
+    line-height: 2rem;
+     font-size: 16px;
+     padding: 0 1.5rem; 
+}
+.aboutpix{
+    display: grid;
+
+}
+
+.firstImage{
+   max-width:65%;
+   margin: 0 auto;
+   display: block;
+
+   
+}
+
+
+
+.forabout{
+    padding:0 1rem; 
+    align-items: center;
+}
+
+}

@@ -82,11 +82,29 @@ nav a:hover{
 } */
 
 
-@media screen and (max-width: 856px) {
+/* @media screen and (max-width: 1006px) { */
+    @media (min-width: 200px) and (max-width: 1006px) {
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        height: 115px;
+        padding: 0 2rem;
+        background-color: rgb(195, 255, 0);
+        
+    }
 
     .nav-btn {
-        display: block;
+        display: flex;
+        color: var(--background4selectedbox);
+        position: relative;
+        left:3rem;
+
     }
+
+    /* .fir{
+        position: fixed;
+    } */
 
  .navbar {
         display: none;
@@ -97,10 +115,14 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 80px; /* Adjust based on the header height */
+    top: 110px; /* Adjust based on the header height */
     left: 0;
     width: 100%;
-    background-color: purple;
+    background-color:var(--background4selectedbox)
+}
+
+.responsive_nav:hover{
+    color:white;
 }
 
     /* .responsive_nav {

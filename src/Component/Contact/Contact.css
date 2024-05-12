@@ -157,7 +157,7 @@ form {
   @media (min-width: 577px) and (max-width: 700px) {
           
  form { 
-        max-width: 420px; 
+        max-width: 470px; 
         margin: 4rem auto;
         background-color: rgb(64, 255, 0);
                 }
@@ -175,7 +175,7 @@ form {
     @media (min-width: 357px) and (max-width: 465px) {
           
         form { 
-              max-width: 220px; 
+              max-width: 350px; 
               margin: 4rem auto;
              background-color: rgb(255, 0, 0); }
 

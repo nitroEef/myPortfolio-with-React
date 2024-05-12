@@ -27,14 +27,13 @@
  body{
     font-family: var(--font);
     font-size: var(--font-size);
-    background-repeat: no-repeat;
-    background-size: 111%;
     color:var(--fonted-color);
     scroll-behavior:auto;
-}
-  .double{
     background-image: url("./assets/cool-background.png"); 
+
+}
+  /* .double{
 height: 100vh;
-  }
+  } */
 
 

@@ -79,11 +79,11 @@
     }
     50% {
       border-color: #e4e4df;
-      transform: translate(0, 0);
+      transform: translate(1px);
     }
     100% {
-      border-color: orangered;
-      transform: translate( 0);
+      border-color: #ff4500;
+      transform: translate( 1px);
     }
   }
 
@@ -182,7 +182,7 @@
 
   }
 
- @media (min-width:849px) and (max-width:905px) {
+ @media (min-width:849px) and (max-width:999px) {
   .imageAndText{
    background-color: rgb(216, 216, 32);
    padding: 5rem 7rem;
@@ -199,7 +199,7 @@
   }
 }
 
-@media (min-width:650px) and (max-width:850px) {
+@media (min-width:650px) and (max-width:848px) {
   .imageAndText{
    background-color: rgb(26, 136, 138);
    
@@ -210,69 +210,304 @@
 .quotebox{
   width:563px;
 }
+
+cite{
+  margin-bottom: 3rem;
+}
+
+.btn{
+  margin-top: 2rem;
+}
   .myIcons{
-    /* width:555px; */
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
   }
 
 }
 
-@media (min-width:400px) and (max-width:650px) {
+@media (min-width:545px) and (max-width:650px) {
   
   .imageAndText{
     background-color: rgb(138, 65, 26);
     
     display: grid;
-    padding:4rem 1rem;
+    padding:4rem 0;
 
+   }
+
+   .introOgbeni{
+    width:433px;
+    font-size: 54px;
    }
 
  .threeTexts{
   padding: 0 4rem;
  }
  .quotebox{
-   width:373px;
+   width:393px;
    margin: 0 auto;
  }
    .myIcons{
-     
-     margin-bottom: 7rem;
+    
+    margin:3rem 0;
    }
- djdsjkdjsdklsdnklsdnklcdfnkldfnkdfn
+
+   cite{
+    margin-bottom: 3rem;
+  }
+  
+
+.btn{
+  /* margin-top: 4rem; */
+display: block;
+margin: 3rem 0;
+   }
+      
+  .introweb{
+    font-weight: 400;
+    margin-top: 1rem;
+  font-size: 21px;
+width:355px;
+text-align: center;}
+
  }
- 
-@media (min-width:300px) and (max-width:399px) {
+
+
+
+ @media (min-width:515px) and (max-width:545px) {
   .imageAndText{
-   background-color: rgb(216, 75, 32);
-   display: flex;
-   flex-wrap: wrap;
-
-   
-  }
-  cite{
-    font-size: 26px;
-
-  }
-  .introOgbeni{
-    width:305px;
-    font-size: 37px;
-  }
-  .introbox{
-    text-align: center;
-   
-  }
-
-  .myIcons {
-    gap:1rem;
-    font-size: 20px;
-  }
-  .btn{
+    background-color: rgb(185, 180, 178);
+    
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-  }
-  .quotext{
-    font-size: 22px;
-  }
+    flex-wrap: wrap;
+    padding-left:3rem;
+ }
+
+ .myIcons {
+  display:none;
+  padding-left: 0;
+  width: 301px;
+  margin-top: 3rem;
+  gap:none;
+ }
+
+ .quotebox{
+  margin-top:3rem;
 }
+
+.quotext{
+  font-size: 25px;
+  padding: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+  
+
+cite{
+margin-bottom: 3rem;}
+ }
+
+
+ 
+ @media (min-width:458px) and (max-width:515px) {
+  .imageAndText{
+    background-color: rgb(160, 56, 14);
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:3rem;
+ }
+
+ 
+.introOgbeni {
+  width: 412px;
+  margin-top: 1.5rem;
+  font-size: 47px;
+}
+  
+.introweb{
+  font-weight: 400;
+  margin-top: 1rem;
+font-size: 21px;
+width:355px;
+
+}
+
+
+.myIcons {
+  display:none;
+  padding-left: 0;
+  width: 281px;
+  margin-top: 3rem;
+  gap:none;
+ }
+
+ .quotebox{
+  margin-top:3rem;
+  border:none;
+  background-color: transparent;
+
+}
+
+cite{
+  margin-bottom: 3rem;
+}
+
+.quotext{
+  font-size: 24px;
+  width:343px;
+   }
+  }
+
+
+
+  @media (min-width:402px) and (max-width:458px) {
+    .imageAndText{
+      background-color: rgb(34, 27, 24);
+      
+      display: flex;
+      flex-wrap: wrap;
+      padding-left:3rem;
+   }
+  
+   
+  .introOgbeni {
+    width: 352px;
+    margin-top: 1.5rem;
+    font-size: 42px;
+  }
+    
+  .introweb{
+    font-weight: 400;
+    margin-top: 1rem;
+  font-size: 21px;
+  width:315px;
+  
+  }
+  
+  
+  .myIcons {
+    display:none;
+    padding-left: 0;
+    width: 271px;
+    margin-top: 3rem;
+    gap:none;
+   }
+  
+   .quotebox{
+    margin-top:3rem;
+    border:none;
+    background-color: transparent;
+  
+  }
+  
+  cite{
+    margin-bottom: 3rem;
+  }
+  
+  .quotext{
+    font-size: 24px;
+    width:303px;
+     }
+    }
+
+
+    @media (min-width:345px) and (max-width:402px) {
+      .imageAndText{
+        background-color: rgb(193, 157, 141);
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding-left:2rem;
+     }
+    
+     
+    .introOgbeni {
+      width: 312px;
+      margin-top: 1.5rem;
+      font-size: 37px;
+    }
+      
+    .introweb{
+      font-weight: 400;
+      margin-top: 1rem;
+    font-size: 21px;
+    width:315px;
+    
+    }
+    
+    
+    .myIcons {
+      display:none;
+      padding-left: 0;
+      width: 271px;
+      margin-top: 3rem;
+      gap:none;
+     }
+    
+     .quotebox{
+      margin-top:3rem;
+      border:none;
+      background-color: transparent;
+    
+    }
+    
+    cite{
+      margin-bottom: 3rem;
+    }
+    
+    .quotext{
+      font-size: 24px;
+      width:293px;
+       }
+      }
+
+      @media (min-width:305px) and (max-width:345px) {
+        .imageAndText{
+          background-color: rgb(170, 141, 193);
+          
+          display: flex;
+          flex-wrap: wrap;
+          padding-left:1.5rem;
+       }
+      
+       
+      .introOgbeni {
+        width: 312px;
+        margin-top: 1.5rem;
+        font-size: 37px;
+      }
+        
+      .introweb{
+        font-weight: 400;
+        margin-top: 1rem;
+      font-size: 21px;
+      width:315px;
+      
+      }
+      
+      
+      .myIcons {
+        display:none;
+        padding-left: 0;
+        width: 271px;
+        margin-top: 3rem;
+        gap:none;
+       }
+      
+       .quotebox{
+        margin-top:3rem;
+        border:none;
+        background-color: transparent;
+      
+      }
+      
+      cite{
+        margin-bottom: 3rem;
+      }
+      
+      .quotext{
+        font-size: 24px;
+        width:293px;
+         }
+        }

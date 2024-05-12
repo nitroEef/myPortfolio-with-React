@@ -16,17 +16,17 @@ function App() {
       <div>
 
         <div className="double">
-     {/* <Navbar/>  */}
+      <Navbar/>  
          {/* <Header/>  */}
     
           <HeroSection/>  
           </div>
-        {/* <Aboutme/> 
+        <Aboutme/> 
     <Project/>  
       
         <Skills/>     
        <Contact/>      
-        <Footer/>        */}
+        <Footer/>       
         
         </div>
   
