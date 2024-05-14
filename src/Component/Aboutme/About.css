@@ -158,10 +158,10 @@
         background-color: rgb(46, 170, 192);
     }
 .ogbeni{
-    width:317px;
+    width:357px;
     line-height: 2rem;
      font-size: 16px;
-     padding: 0 1.5rem; 
+     padding: 0 1.2rem; 
 }
 .aboutpix{
     display: grid;
@@ -169,7 +169,7 @@
 }
 
 .firstImage{
-   max-width:65%;
+   max-width:55%;
    margin: 0 auto;
    display: block;
 
