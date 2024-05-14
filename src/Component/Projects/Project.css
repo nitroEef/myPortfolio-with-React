@@ -239,7 +239,7 @@ a{
 
 
 
-         @media (min-width:364px) and (max-width:721px) {
+         @media (min-width:324px) and (max-width:721px) {
             .card-image{
                width: 227px;
                height: 217px;
