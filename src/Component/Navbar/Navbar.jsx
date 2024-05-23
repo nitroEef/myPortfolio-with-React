@@ -5,7 +5,6 @@ import { hy } from '../../assets';
 
 
 
-// dpkohcduhsduiodhsisdhihias
 
 
 function Navbar() {
