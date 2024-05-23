@@ -5,7 +5,7 @@ import { hy } from '../../assets';
 
 
 
-cjdjcjds i
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
