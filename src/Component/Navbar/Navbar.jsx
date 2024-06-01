@@ -3,7 +3,7 @@ import { FaTimes, FaBars } from "react-icons/fa";
 import "./Navbar.css";
 import { hy } from '../../assets';
 
-xnjnje
+xnj
 
 
 function Navbar() {
