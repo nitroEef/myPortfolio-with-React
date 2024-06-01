@@ -3,7 +3,7 @@ import { FaTimes, FaBars } from "react-icons/fa";
 import "./Navbar.css";
 import { hy } from '../../assets';
 
-NDODONDKOEN
+NDODONDK
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
