@@ -29,5 +29,4 @@ function Navbar() {
     </header>
   );
 }
-JNSIOXIOSJ
 export default Navbar;
