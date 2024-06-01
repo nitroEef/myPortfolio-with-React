@@ -29,5 +29,5 @@ function Navbar() {
     </header>
   );
 }
-JNSIOXIOSJXXXXXXXXXXXXXXXXXXXOOOOO
+JNSIOXIOSJXXXXXXXXXXXXXXXX
 export default Navbar;
