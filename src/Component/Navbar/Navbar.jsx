@@ -3,7 +3,6 @@ import { FaTimes, FaBars } from "react-icons/fa";
 import "./Navbar.css";
 import { hy } from '../../assets';
 
-NDOD
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
