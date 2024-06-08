@@ -12,7 +12,7 @@ import './Contact.css';
   
     
     git add .
-    git commit -m "
+    git co
 
 
 
