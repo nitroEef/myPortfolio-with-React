@@ -11,7 +11,10 @@ import './Contact.css';
     alert('Message sent successfully!, Eef will surely get back to you soon');
   
     
-uiwuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+uiwuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuugit add .
+git commit -m "update"
+git push
+
     emailjs
       .sendForm('service_if797uo', 'template_1m8u6fr', form.current, {
         publicKey: 'YwXbC3UF5t9HQEsUR',
