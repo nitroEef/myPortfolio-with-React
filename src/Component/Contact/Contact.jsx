@@ -11,7 +11,8 @@ import './Contact.css';
     alert('Message sent successfully!, Eef will surely get back to you soon');
   
     
-
+    git add .
+    git commit -m "
 
 
 
