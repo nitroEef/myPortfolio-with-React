@@ -11,9 +11,8 @@ import './Contact.css';
     alert('Message sent successfully!, Eef will surely get back to you soon');
   
     
-uiwuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuugit add .
-git commit -m "update"
-git push
+uiwuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+
 
     emailjs
       .sendForm('service_if797uo', 'template_1m8u6fr', form.current, {
