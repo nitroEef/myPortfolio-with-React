@@ -147,7 +147,6 @@ form {
             form {
                 max-width: 540px; 
                 margin: 4rem auto;
-                background-color: red;
                 }
           }
     
@@ -159,7 +158,6 @@ form {
  form { 
         max-width: 470px; 
         margin: 4rem auto;
-        background-color: rgb(64, 255, 0);
                 }
           }
 @media (min-width: 464px) and (max-width: 576px) { 
@@ -167,7 +165,6 @@ form {
 form { 
       max-width: 320px; 
       margin: 4rem auto;
-     background-color: rgb(0, 47, 255);
                            }
     } 
 
@@ -177,7 +174,6 @@ form {
         form { 
               max-width: 350px; 
               margin: 4rem auto;
-             background-color: rgb(255, 0, 0); }
 
         ::placeholder{
             font-size: 16px;
@@ -206,7 +202,6 @@ form {
         form { 
               max-width: 170px; 
               /* padding-right :5rem; */
-             background-color: rgb(100, 125, 41);
              }
 
 
@@ -246,4 +241,4 @@ form {
                 padding: 11px 36px;
                 font-size: 14px;
             }
-        } 
+        } }

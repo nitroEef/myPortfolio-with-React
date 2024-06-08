@@ -174,9 +174,7 @@ a{
         grid-template-columns:auto auto;
     gap:3rem;    }
     
-     .eefqqqd{
-        background-color: red;
-     }
+
      .githublink a{
             text-align: center;
       }}
@@ -204,9 +202,6 @@ a{
             font-size: 26px;
         }
 
-        .eefqqqd{
-           background-color: red;
-        }
         .githublink a{
                text-align: center;
          }}

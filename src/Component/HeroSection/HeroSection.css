@@ -174,7 +174,6 @@
 
  @media (min-width:1000px) and (max-width:1200px) {
    .imageAndText{
-    background-color: red;
     justify-content: space-between;
    }
 
@@ -184,7 +183,6 @@
 
  @media (min-width:849px) and (max-width:999px) {
   .imageAndText{
-   background-color: rgb(216, 216, 32);
    padding: 5rem 7rem;
    display:grid;
   }
@@ -201,7 +199,6 @@
 
 @media (min-width:650px) and (max-width:848px) {
   .imageAndText{
-   background-color: rgb(26, 136, 138);
    
    display: grid;
    justify-content: space-between;
@@ -228,7 +225,6 @@ cite{
 @media (min-width:545px) and (max-width:650px) {
   
   .imageAndText{
-    background-color: rgb(138, 65, 26);
     
     display: grid;
     padding:4rem 0;
@@ -276,7 +272,6 @@ text-align: center;}
 
  @media (min-width:515px) and (max-width:545px) {
   .imageAndText{
-    background-color: rgb(185, 180, 178);
     
     display: flex;
     flex-wrap: wrap;
@@ -311,7 +306,6 @@ margin-bottom: 3rem;}
  
  @media (min-width:458px) and (max-width:515px) {
   .imageAndText{
-    background-color: rgb(160, 56, 14);
     
     display: flex;
     flex-wrap: wrap;
@@ -363,7 +357,6 @@ cite{
 
   @media (min-width:402px) and (max-width:458px) {
     .imageAndText{
-      background-color: rgb(34, 27, 24);
       
       display: flex;
       flex-wrap: wrap;
@@ -414,7 +407,6 @@ cite{
 
     @media (min-width:345px) and (max-width:402px) {
       .imageAndText{
-        background-color: rgb(193, 157, 141);
         
         display: flex;
         flex-wrap: wrap;
@@ -464,7 +456,6 @@ cite{
 
       @media (min-width:305px) and (max-width:345px) {
         .imageAndText{
-          background-color: rgb(170, 141, 193);
           
           display: flex;
           flex-wrap: wrap;
