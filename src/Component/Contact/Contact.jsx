@@ -13,7 +13,7 @@ import './Contact.css';
     
 jen    klnnkknknkn
 ;,llmlmlmlmlm
-,cd b,jjjjjjjjjjjjjjjkbjkbbbbbbbbbbbbbbbbbbbbbbbbbbbrrrrrrrrrrrrrr
+,cd b,jjjjjjjjjjjjjjjkbjkbbbbbbbbbbbbbbbbbbbbbbbbbbbrrrrrrrrr
 
     emailjs
       .sendForm('service_if797uo', 'template_1m8u6fr', form.current, {
