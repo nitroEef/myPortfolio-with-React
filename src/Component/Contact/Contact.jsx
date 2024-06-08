@@ -11,9 +11,7 @@ import './Contact.css';
     alert('Message sent successfully!, Eef will surely get back to you soon');
   
     
-jen    klnnkknknkn
-;,llmlmlmlmlm
-,cd b
+
 
     emailjs
       .sendForm('service_if797uo', 'template_1m8u6fr', form.current, {
