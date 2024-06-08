@@ -12,7 +12,7 @@ import './Contact.css';
   
     
 
-iojiojoojjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+iojiojoojjjjjjjjjjjjjjjj
     emailjs
       .sendForm('service_if797uo', 'template_1m8u6fr', form.current, {
         publicKey: 'YwXbC3UF5t9HQEsUR',
