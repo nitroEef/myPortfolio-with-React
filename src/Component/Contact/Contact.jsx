@@ -11,7 +11,7 @@ import './Contact.css';
     alert('Message sent successfully!, Eef will surely get back to you soon');
   
     
-uiwuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+uiwuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
 
 
     emailjs
