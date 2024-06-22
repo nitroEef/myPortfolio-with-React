@@ -6,6 +6,9 @@ const Aboutme = () => {
   return (
     <div className='forabout' id='About-me'>
 
+
+      jfnjbfjfjfjbfjfbjbfjf
+
         <h1 className='aboutme'> About Me</h1>
         <div className="aboutpix">
      <p className='ogbeni'> Hello, I'm Ogbeni NitroEeF, a passionate and innovative web developer/designer,
