@@ -7,7 +7,7 @@ const Aboutme = () => {
     <div className='forabout' id='About-me'>
 
 
-      jfnjbfj
+      jfnj
 
         <h1 className='aboutme'> About Me</h1>
         <div className="aboutpix">
