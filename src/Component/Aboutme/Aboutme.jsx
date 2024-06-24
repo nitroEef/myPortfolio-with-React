@@ -30,7 +30,7 @@ const Aboutme = () => {
   )
 }
 
-sddddddddddd
+sdddddd
 
 
 export default Aboutme
